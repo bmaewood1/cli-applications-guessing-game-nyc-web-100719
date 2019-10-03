@@ -1,7 +1,7 @@
 # Code your solution here!
 
 require "pry"
-
+binding.pry
 def run_guessing_game
   num = rand(1...7)
   puts "Guess a number between 1 and 6."
